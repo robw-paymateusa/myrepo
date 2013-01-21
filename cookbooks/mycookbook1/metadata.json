@@ -1,30 +1,31 @@
 {
-  "version": "0.0.1",
-  "platforms": {
-  },
-  "maintainer": "YOUR_COMPANY_NAME",
-  "description": "Installs/Configures mycookbook1",
   "recipes": {
     "mycookbook1::default": "Prints hello world output"
   },
-  "replacing": {
+  "suggestions": {
   },
   "recommendations": {
   },
+  "maintainer": "YOUR_COMPANY_NAME",
+  "name": "mycookbook1",
   "groupings": {
   },
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
+  },
+  "platforms": {
+  },
+  "license": "All rights reserved",
   "providing": {
   },
   "conflicting": {
   },
-  "license": "All rights reserved",
   "attributes": {
   },
-  "dependencies": {
-  },
-  "suggestions": {
-  },
-  "name": "mycookbook1",
+  "description": "Installs/Configures mycookbook1",
   "maintainer_email": "YOUR_EMAIL",
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n"
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "version": "0.0.1",
+  "replacing": {
+  }
 }
