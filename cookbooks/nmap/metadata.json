@@ -1,0 +1,30 @@
+{
+  "version": "0.0.1",
+  "conflicting": {
+  },
+  "attributes": {
+  },
+  "recommendations": {
+  },
+  "recipes": {
+    "nmap::default": "installs nmap"
+  },
+  "name": "nmap",
+  "suggestions": {
+  },
+  "dependencies": {
+  },
+  "maintainer_email": "YOUR_EMAIL",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "platforms": {
+  },
+  "groupings": {
+  },
+  "providing": {
+  },
+  "license": "All rights reserved",
+  "description": "Installs/Configures nmap",
+  "maintainer": "YOUR_COMPANY_NAME",
+  "replacing": {
+  }
+}
