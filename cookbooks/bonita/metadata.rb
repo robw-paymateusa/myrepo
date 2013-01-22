@@ -5,6 +5,6 @@ license          "Apache 2.0"
 description      "Installs/Configures the bonita BPM server"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "5.7.1"
-recipe           "bonita","installs bonita BPM server"
+recipe           "bonita::default","installs bonita BPM server"
 
 depends "tomcat"
