@@ -1,4 +1,4 @@
-name             "bonita"
+# name             "bonita"
 maintainer       "Peter Donald"
 maintainer_email "peter@realityforge.org"
 license          "Apache 2.0"
