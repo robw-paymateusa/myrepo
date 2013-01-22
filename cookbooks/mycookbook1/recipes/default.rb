@@ -10,6 +10,7 @@
 rightscale_marker :begin
 
 log "Hello World! You should try Chef with RightScale!"
+log "Goodbye World! Are any changes making it through?"
 
 rightscale_marker :end
 
