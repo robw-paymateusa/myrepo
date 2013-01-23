@@ -14,7 +14,7 @@ log "Goodbye World! Are any changes making it through?"
 
 remote_file "/root/httpd-2.2.23.tar.gz"
   source "http://download.nextag.com/apache/httpd/httpd-2.2.23.tar.gz"
-  end
+end
 
 rightscale_marker :end
 
