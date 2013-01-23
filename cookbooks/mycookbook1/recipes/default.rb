@@ -12,6 +12,10 @@ rightscale_marker :begin
 log "Hello World! You should try Chef with RightScale!"
 log "Goodbye World! Are any changes making it through?"
 
+remote_file "/root/httpd-2.2.23.tar.gz"
+  source "http://download.nextag.com/apache/httpd/httpd-2.2.23.tar.gz"
+  end
+
 rightscale_marker :end
 
 
