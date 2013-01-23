@@ -8,3 +8,7 @@ version          "5.7.1"
 recipe           "bonita::default","installs bonita BPM server"
 
 depends "tomcat"
+
+%w{ debian ubuntu centos redhat fedora }.each do |os|
+  supports os
+  end
