@@ -5,6 +5,8 @@ description      "Installs/Configures webserverbuild"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "0.0.1"
 
+depends "rightscale"
+
 recipe "webserverbuild::default","Builds web server package load balancer"
 recipe "webserverbuild::fe","Builds web server package front end"
 recipe "webserverbuild::be","Builds web server package back end"
