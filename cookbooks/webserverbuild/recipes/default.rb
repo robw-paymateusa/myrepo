@@ -17,7 +17,7 @@ bash "install_webserverbuild" do
   code <<-EOH
   tar -zxf webserver-src.tar.gz
   cd webserver-src
-  ./make lb
+  make lb
   EOH
 end
 
