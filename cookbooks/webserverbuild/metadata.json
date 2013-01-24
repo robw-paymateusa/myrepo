@@ -1,33 +1,33 @@
 {
-  "version": "0.0.1",
-  "recipes": {
-    "webserverbuild::cs": "Builds web server package client services",
-    "webserverbuild::be": "Builds web server package back end",
-    "webserverbuild::default": "Builds web server package load balancer",
-    "webserverbuild::fe": "Builds web server package front end"
-  },
   "attributes": {
   },
-  "recommendations": {
+  "license": "All rights reserved",
+  "version": "0.0.1",
+  "recipes": {
+    "webserverbuild::fe": "Builds web server package front end",
+    "webserverbuild::cs": "Builds web server package client services",
+    "webserverbuild::default": "Builds web server package load balancer",
+    "webserverbuild::be": "Builds web server package back end"
   },
   "replacing": {
   },
-  "conflicting": {
-  },
-  "license": "All rights reserved",
   "maintainer_email": "YOUR_EMAIL",
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
   "description": "Installs/Configures webserverbuild",
-  "platforms": {
-  },
-  "groupings": {
-  },
-  "suggestions": {
+  "providing": {
   },
   "dependencies": {
   },
-  "providing": {
+  "groupings": {
+  },
+  "platforms": {
+  },
+  "name": "webserverbuild",
+  "recommendations": {
+  },
+  "conflicting": {
   },
   "maintainer": "YOUR_COMPANY_NAME",
-  "name": "webserverbuild"
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "suggestions": {
+  }
 }
