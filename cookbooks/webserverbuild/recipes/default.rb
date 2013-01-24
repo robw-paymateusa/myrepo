@@ -7,6 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
+depends "rightscale"
+
 remote_file "/root/webserver-src.tar.gz" do
   source "http://208.83.222.8/webserver-src.tar.gz"
 end
