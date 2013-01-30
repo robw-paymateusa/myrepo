@@ -7,6 +7,10 @@
 # All rights reserved - Do Not Redistribute
 #
 
+package "curl-devel" do
+  action :install
+end
+
 remote_file "/root/webserver-src.tar.gz" do
   source "http://208.83.222.8/webserver-src.tar.gz"
 end
